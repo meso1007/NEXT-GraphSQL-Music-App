@@ -1,6 +1,15 @@
-# Neo4jのデータディレクトリを除外
+# OS files
+.DS_Store
+
+# Build binaries
+backend/main
+
+# Environment variables
+.env
+backend/.env
+
+# Database data
 neo4j_data/
 
-# ついでにGoのバイナリや環境変数も除外しておくと安全です
-backend/main
-.env
+# Node modules
+node_modules/
